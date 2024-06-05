@@ -1,2 +1,2 @@
-# patika-ekip7
+# Mikrogrup Final Odevi Ece Teker
 #Exploratory Data Analysis
