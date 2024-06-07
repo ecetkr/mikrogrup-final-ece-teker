@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Revenue Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        input[type="text"], select {
+            padding: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: calc(50% - 15px);
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Revenue Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="Number_of_Customers">Number of Customers:</label>
+            <input type="number" id="Number_of_Customers" name="Number_of_Customers" step="0.01" required>
+            
+            <label for="Menu_Price">Menu Price:</label>
+            <input type="number" id="Menu_Price" name="Menu_Price" step="0.01" required>
+
+            <label for="Marketing_Spend">Marketing Spend:</label>
+            <input type="number" id="Marketing_Spend" name="Marketing_Spend" step="0.01" required>
+
+            <label for="Cuisine_Type">Cuisine Type:</label>
+            <input type="text" id="Cuisine_Type" name="Cuisine_Type" required>
+            
+
+            <label for="Average_Customer_Spending">Average Customer Spending:</label>
+            <input type="number" id="Average_Customer_Spending" name="Average_Customer_Spending" step="0.01" required>
+
+            <label for="Promotions">Promotions:</label>
+            <input type="text" id="Promotions" name="Promotions" required>
+
+            <label for="Reviews">Reviews:</label>
+            <input type="number" id="Reviews" name="Reviews" required>
+            
+            <input type="submit" value="Predict">
+        </form>
+        <div id="result">
+            <!-- Prediction result will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>
