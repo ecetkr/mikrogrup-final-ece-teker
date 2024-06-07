@@ -7,7 +7,7 @@ from notebooks.preprocessing import preprocess_data
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load("data/XGBoost_best_model.joblib")
+model = joblib.load("data/MLPRegressor_best_model.joblib")
 
 @app.route("/")
 def home():
