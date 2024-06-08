@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import pandas as pd
 import numpy as np
 import joblib
-from notebooks.preprocessing import preprocess_data
 
 app = Flask(__name__)
 
