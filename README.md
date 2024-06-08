@@ -6,7 +6,7 @@ Welcome to the Restaurant Revenue Prediction Application! In the competitive wor
 
 The report for this project can be found inside `Ece Teker Mi-POWER Final Case.pdf`. Or you can view it on [google docs](https://docs.google.com/document/d/1PyOZ2_By9wBLi9KATzvrOmwLpleHRFivFdxslU5mOBg/edit?usp=sharing).
 
-The presentation for this project be found inside `Restaurant Revenue Prediction Ece Teker.pdf`. Or you can view it on [google docs](https://docs.google.com/presentation/d/1isAZtyyU6bdIMhbXZxrLkQfzdL6rQpMNR4po4mbit8A/edit?usp=sharing).
+The presentation for this project be found inside `Restaurant Revenue Prediction Ece Teker.pdf`. Or you can view it on [google docs](https://docs.google.com/presentation/d/1isAZtyyU6bdIMhbXZxrLkQfzdL6rQpMNR4po4mbit8A/edit?usp=sharing). You can also watch me present it [here](https://www.loom.com/share/74e9aa73550d4cbd9710e0024a07cce6?sid=dc592a16-6fbe-4b0d-87e7-c78b4cc70675) :)
 
 ## Overview
 This is a sample Flask application developed in Python for web as part of the Mi-Power Women Empowerment Program by Group 7 (All the improvements made after the group project are by Ece Teker). The primary purpose of this application is to provide restaurant owners with a tool to forecast their monthly revenue based on various input factors. By inputting key details about their restaurant's operations, such as the number of customers, menu prices, marketing spend, cuisine type, average customer spending, promotions, and reviews, users can receive a data-driven prediction of their expected revenue.
